@@ -10,7 +10,7 @@ import java.util.List;
 public class TPGTest {
 	public static void Question1() {
 		try {
-			File file = new File("C:\\ipv4.txt");
+			File file = new File("ipv4.txt");
 			List<String> ips = IPValidationRegex.filterInvalidIPs(file);
 			
 			System.out.println("\nQuestion 1: ");
